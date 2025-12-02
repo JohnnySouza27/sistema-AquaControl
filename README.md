@@ -32,5 +32,3 @@ O modelo lógico foi normalizado até a **3FN** e contém as seguintes entidades
    git clone https://github.com/seuusuario/aquacontrol.git
 
 ---
-   ```bash
-   git clone https://github.com/seuusuario/aquacontrol.git
