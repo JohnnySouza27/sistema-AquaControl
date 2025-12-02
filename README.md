@@ -30,5 +30,13 @@ O modelo lógico foi normalizado até a **3FN** e contém as seguintes entidades
 1. Clone este repositório:
      ```bash
    git clone https://github.com/seuusuario/aquacontrol.git
+     
+2. Abra o MySQL Workbench ou outro cliente SQL.
+
+3. Execute o script aquacontrol.sql para criar o banco e as tabelas.
+
+4. Insira os dados iniciais com os comandos INSERT.
+
+5. Teste o banco com consultas SELECT, atualizações UPDATE e exclusões DELETE.     
 
 ---
