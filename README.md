@@ -63,12 +63,17 @@ JOIN RegraRacionamento rr ON rel.id_regra = rr.id_regra;
 
 ✅ Status do Projeto
 
-- ** [x] Modelagem Conceitual (DER)
+- [x] Modelagem Conceitual (DER)
 
-- ** [x] Normalização até 3FN
+- [x] Normalização até 3FN
 
-- ** [x] Implementação em MySQL (DDL/DML)
+- [x] Implementação em MySQL (DDL/DML)
 
-- ** [ ] Inserção de dados adicionais para testes
+- [ ] Inserção de dados adicionais para testes
 
-- ** [ ] Consultas avançadas com agregações (SUM, AVG, GROUP BY)
+- [ ] Consultas avançadas com agregações (SUM, AVG, GROUP BY)
+
+---
+
+👨‍💻 Autor
+Projeto desenvolvido por Johnny para a disciplina de Modelagem de Banco de Dados.
