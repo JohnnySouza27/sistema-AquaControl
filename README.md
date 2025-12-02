@@ -40,3 +40,25 @@ O modelo lógico foi normalizado até a **3FN** e contém as seguintes entidades
 5. Teste o banco com consultas SELECT, atualizações UPDATE e exclusões DELETE.     
 
 ---
+
+📊 Exemplos de Consultas
+
+-- Listar todos os usuários
+SELECT * FROM Usuario;
+
+-- Mostrar consumo por residência
+SELECT u.nome, r.endereco, c.data, c.litros_consumidos
+FROM Consumo c
+JOIN Medidor m ON c.id_medidor = m.id_medidor
+JOIN ResidenciaEmpresa r ON m.id_residencia = r.id_residencia
+JOIN Usuario u ON r.id_usuario = u.id_usuario;
+
+-- Relatórios gerados por cada usuário
+SELECT u.nome, rel.periodo, rr.limite_diario
+FROM Relatorio rel
+JOIN Usuario u ON rel.id_usuario = u.id_usuario
+JOIN RegraRacionamento rr ON rel.id_regra = rr.id_regra;
+
+---
+
+
